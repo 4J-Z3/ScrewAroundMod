@@ -1,43 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-<<<<<<< HEAD
-	<name>ScrewAroundMod</name>
-	<comment></comment>
-	<projects>
-	</projects>
-	<buildSpec>
-		<buildCommand>
-			<name>org.eclipse.jdt.core.javabuilder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
-	</buildSpec>
-	<natures>
-		<nature>org.eclipse.jdt.core.javanature</nature>
-	</natures>
-	<linkedResources>
-		<link>
-			<name>common</name>
-			<type>2</type>
-			<location>C:/Users/BoxARocks/ForgeModding/ScrewAroundMod/common</location>
-		</link>
-		<link>
-			<name>jars</name>
-			<type>2</type>
-			<location>C:/Users/BoxARocks/ForgeModding/ScrewAroundMod/jars</location>
-		</link>
-		<link>
-			<name>lib</name>
-			<type>2</type>
-			<location>C:/Users/BoxARocks/ForgeModding/ScrewAroundMod/lib</location>
-		</link>
-		<link>
-			<name>src</name>
-			<type>2</type>
-			<location>C:/Users/BoxARocks/ForgeModding/ScrewAroundMod/src</location>
-		</link>
-	</linkedResources>
-=======
 	<name>Minecraft</name>
 	<comment></comment>
 	<projects/>
@@ -52,5 +14,4 @@
 	</buildSpec>
 	<linkedResources/>
 	<filteredResources/>
->>>>>>> branch 'master' of https://github.com/4J-Z3/ScrewAroundMod
 </projectDescription>

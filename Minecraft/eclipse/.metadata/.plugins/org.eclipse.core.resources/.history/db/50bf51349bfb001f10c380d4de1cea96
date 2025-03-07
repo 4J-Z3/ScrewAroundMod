@@ -1,0 +1,26 @@
+package boxarocks.screwaroundmod.proxy;
+
+import boxarocks.screwaroundmod.block.BlockRegister;
+import boxarocks.screwaroundmod.item.ItemRegister;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraftforge.common.DimensionManager;
+
+public class CommonProxy {
+
+	public void preInit(FMLPreInitializationEvent event) {		
+		ItemRegister.registerItems();
+		BlockRegister.registerBlocks();
+	}
+	
+	public void init (FMLInitializationEvent event) {
+		//DimensionManager.registerDimension();
+	}
+
+	public void postInit (FMLPostInitializationEvent event) {
+		
+	}
+	
+}

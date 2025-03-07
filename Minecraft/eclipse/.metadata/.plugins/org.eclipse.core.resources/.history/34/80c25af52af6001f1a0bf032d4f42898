@@ -1,0 +1,12 @@
+/.metadata/
+/build.gradle
+/build/
+/common/
+/eclipse/
+/forge-1.7.10-10.13.4.1614-1.7.10-changelog.txt
+/gradle/
+/gradlew
+/gradlew.bat
+/jars/
+/lib/
+/src/

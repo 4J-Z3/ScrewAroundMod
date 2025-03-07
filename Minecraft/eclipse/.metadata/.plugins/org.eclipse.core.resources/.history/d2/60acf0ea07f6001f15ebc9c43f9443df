@@ -1,0 +1,5 @@
+package boxarocks.screwaroundmod.block;
+
+public class BlockTestDoor {
+
+}

@@ -1,0 +1,12 @@
+package boxarocks.screwaroundmod.world;
+
+import net.minecraft.world.WorldProvider;
+
+public class TestProvider extends WorldProvider {
+
+	@Override
+	public String getDimensionName() {
+		return "Test";
+	}
+
+}

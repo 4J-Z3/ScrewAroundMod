@@ -1,0 +1,20 @@
+package boxarocks.screwaroundmod.world;
+
+import boxarocks.screwaroundmod.ScrewAroundMod;
+import boxarocks.screwaroundmod.config.SAMProperties;
+import net.minecraft.world.WorldProvider;
+
+public class TestProvider extends WorldProvider {
+
+	@Override
+	public String getDimensionName() {
+		return "Test";
+	}
+	
+	private SAMProperties properties;
+	
+	public testProvider() {
+		this.properties = ScrewAroundMod.properties;
+	}
+
+}

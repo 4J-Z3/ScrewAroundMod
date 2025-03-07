@@ -1,8 +1,11 @@
 package boxarocks.screwaroundmod;
 
+import java.io.File;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import boxarocks.screwaroundmod.config.SAMProperties;
 import boxarocks.screwaroundmod.proxy.CommonProxy;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
@@ -25,9 +28,16 @@ public class ScrewAroundMod {
 	@SidedProxy(serverSide = "boxarocks.screwaroundmod.proxy.CommonProxy", clientSide = "boxarocks.screwaroundmod.proxy.ClientProxy")
 	public static CommonProxy proxy;
 	
+	public static SAMProperties properties;
+	
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
 		logger.info(modid + " Pre-Init.");
+		logger.info(event.getSuggestedConfigurationFile().getAbsolutePath());
+		
+		String path = event.getSuggestedConfigurationFile().getAbsolutePath();
+		properties = SAMProperties.initialize(new File(path));
+		
 		proxy.preInit(event);
 	}
 	

@@ -1,0 +1,13 @@
+package boxarocks.screwaroundmod.block;
+
+import net.minecraft.block.BlockDoor;
+import net.minecraft.block.material.Material;
+
+public class BlockTestDoor extends BlockDoor implements BlockBase {
+	
+	protected BlockTestDoor(Material mat) {
+		super(mat);
+		// TODO Auto-generated constructor stub
+	}
+
+}

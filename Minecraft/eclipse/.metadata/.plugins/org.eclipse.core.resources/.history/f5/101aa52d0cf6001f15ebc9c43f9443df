@@ -1,0 +1,19 @@
+package boxarocks.screwaroundmod.item;
+
+import boxarocks.screwaroundmod.ScrewAroundMod;
+import net.minecraft.block.material.Material;
+import net.minecraft.item.ItemDoor;
+
+public class ItemDoorBase extends ItemDoor {
+
+	protected String name;
+	
+	public ItemDoorBase(String name, Material mat) {
+		super(mat);
+		this.name = name;
+		
+		setUnlocalizedName(name);
+		setTextureName(ScrewAroundMod.modid + ":" + getUnlocalizedName());
+	}
+
+}

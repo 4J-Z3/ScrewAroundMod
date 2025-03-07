@@ -1,0 +1,26 @@
+package boxarocks.screwaroundmod.block;
+
+import boxarocks.screwaroundmod.ScrewAroundMod;
+import net.minecraft.block.BlockDoor;
+import net.minecraft.block.material.Material;
+import net.minecraft.creativetab.CreativeTabs;
+
+public class BlockDoorBase extends BlockDoor {
+	
+protected String name;
+	
+	protected BlockDoorBase(String name, Material material) {
+		super(material);
+		
+		this.name = name;
+		setBlockName(name);
+		setBlockTextureName(ScrewAroundMod.modid + ":" + getUnlocalizedName());
+	}
+	
+	@Override
+	public BlockDoor setCreativeTab(CreativeTabs tab) {
+		super.setCreativeTab(tab);
+		return this;
+	}
+
+}

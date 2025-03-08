@@ -3,6 +3,7 @@ package boxarocks.screwaroundmod.proxy;
 import boxarocks.screwaroundmod.ScrewAroundMod;
 import boxarocks.screwaroundmod.block.BlockRegister;
 import boxarocks.screwaroundmod.item.ItemRegister;
+import boxarocks.screwaroundmod.world.BiomeGenTest;
 import boxarocks.screwaroundmod.world.TestProvider;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
@@ -26,8 +27,10 @@ public class CommonProxy {
 	
 	public void init (FMLInitializationEvent event) {
 		
-		BiomeDictionary.registerBiomeType(biomeTest, Type.PLAINS);
-		BiomeManager.addSpawnBiome(biomeTest);
+		//biomeTest = new BiomeGenTest(ScrewAroundMod.properties.testBiomeID, "Test");
+		
+		//BiomeDictionary.registerBiomeType(biomeTest, Type.PLAINS);
+		//BiomeManager.addSpawnBiome(biomeTest);
 		
 		DimensionManager.registerProviderType(ScrewAroundMod.properties.testProviderID, TestProvider.class, false);
 		DimensionManager.registerDimension(ScrewAroundMod.properties.testDimensionID, ScrewAroundMod.properties.testProviderID);

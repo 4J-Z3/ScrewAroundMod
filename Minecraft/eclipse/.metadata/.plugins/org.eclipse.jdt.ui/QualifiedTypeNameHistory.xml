@@ -1,12 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="boxarocks.screwaroundmod.block.BlockDoorBase"/>
-    <fullyQualifiedTypeName name="cpw.mods.fml.relauncher.Side"/>
-    <fullyQualifiedTypeName name="boxarocks.screwaroundmod.ScrewAroundMod"/>
-    <fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
-    <fullyQualifiedTypeName name="cpw.mods.fml.common.registry.GameRegistry"/>
-    <fullyQualifiedTypeName name="boxarocks.screwaroundmod.item.ItemRegister"/>
-    <fullyQualifiedTypeName name="boxarocks.screwaroundmod.item.ItemDoorBase"/>
-    <fullyQualifiedTypeName name="boxarocks.screwaroundmod.block.BlockRegister"/>
-    <fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
-</qualifiedTypeNameHistroy>
+<qualifiedTypeNameHistroy/>

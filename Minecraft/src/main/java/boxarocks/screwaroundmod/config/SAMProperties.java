@@ -6,13 +6,17 @@ import net.minecraftforge.common.config.Configuration;
 
 public class SAMProperties {
 
-	//Dim ids
+	//BiomeIDs
+	public final int testBiomeID;
+	
+	//Dim IDs
 	public final int testProviderID;
 	public final int testDimensionID;
 	
 	private static SAMProperties instance = null;
 	
 	//Categories
+	public final String CATEGORY_BIOME = "biome";
 	public final String CATEGORY_DIMENSION = "dimension";
 	public final String CATEGORY_PROVIDER = "provider";
 	
@@ -24,6 +28,7 @@ public class SAMProperties {
 		testDimensionID = config.get(CATEGORY_DIMENSION, "Test Dimension ID", 100).getInt();
 		testProviderID = config.get(CATEGORY_PROVIDER, "Test Provider ID", 101).getInt();
 		
+		testBiomeID = config.get(CATEGORY_BIOME, "Test Biome ID", 102).getInt();		
 		config.save();
 		
 	}

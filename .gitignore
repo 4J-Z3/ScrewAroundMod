@@ -1,0 +1,14 @@
+Minecraft/.gradle/*
+Minecraft/.metadata/*
+Minecraft/.settings/*
+Minecraft/build/*
+Minecraft/eclipse/*
+
+Minecraft/.classpath
+Minecraft/.project
+
+Minecraft/CREDITS-fml.txt
+Minecraft/LICENSE-fml.txt
+Minecraft/MinecraftForge-Credits.txt
+Minecraft/MinecraftForge-License.txt
+Minecraft/README.txt
